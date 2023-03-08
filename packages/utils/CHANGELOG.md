@@ -1,5 +1,11 @@
 # @ponjimon/utils
 
+## 0.1.1
+
+### Patch Changes
+
+- [`8d396ab`](https://github.com/Ponjimon/common-utils/commit/8d396abdc8fd95e6d9599274d51e87511fe5777f) Thanks [@Ponjimon](https://github.com/Ponjimon)! - Renamed file because it's actually PKCE and not PCKE, oops xD
+
 ## 0.1.0
 
 ### Minor Changes
