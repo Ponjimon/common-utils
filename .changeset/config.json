@@ -3,7 +3,7 @@
   "changelog": [
     "@changesets/changelog-github",
     {
-      "repo": "@ponjimon/common-utils"
+      "repo": "ponjimon/common-utils"
     }
   ],
   "access": "public",
