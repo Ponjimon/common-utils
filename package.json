@@ -1,0 +1,29 @@
+{
+  "name": "@ponjimon/common-utils",
+  "version": "0.0.0",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "build": "turbo run build",
+    "dev": "turbo run dev",
+    "lint": "turbo run lint",
+    "format": "prettier --write \"**/*.{ts,tsx,md}\"",
+    "publish-packages": "pnpm run format && pnpm exec turbo run lint build && pnpm exec changeset version && changeset publish",
+    "changeset": "changeset"
+  },
+  "devDependencies": {
+    "@changesets/changelog-github": "^0.4.8",
+    "@ponjimon/eslint-config": "workspace:*",
+    "prettier": "latest",
+    "turbo": "latest"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "dependencies": {
+    "@changesets/cli": "^2.26.0"
+  },
+  "packageManager": "pnpm@7.28.0"
+}
