@@ -43,7 +43,10 @@ export class StringUtil {
   }
 
   static generateRandomString(length: number): string {
-    return this.encode(crypto.getRandomValues(new Uint8Array(length)));
+    return this.encode(
+      crypto.getRandomValues(new Uint8Array(length)),
+      'base64'
+    );
   }
 
   protected static cleanBase64String(str: string): string {
