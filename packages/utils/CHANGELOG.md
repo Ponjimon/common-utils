@@ -1,5 +1,11 @@
 # @ponjimon/utils
 
+## 1.1.0
+
+### Minor Changes
+
+- [`ed3705c`](https://github.com/Ponjimon/common-utils/commit/ed3705c456c826f3d5bd6d28744b88d806798e6b) Thanks [@Ponjimon](https://github.com/Ponjimon)! - Add ECDSA helpers
+
 ## 1.0.0
 
 ### Major Changes
