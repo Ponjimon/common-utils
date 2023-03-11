@@ -1,5 +1,11 @@
 # @ponjimon/utils
 
+## 0.1.2
+
+### Patch Changes
+
+- [`567880a`](https://github.com/Ponjimon/common-utils/commit/567880a2537f15f714ba540108dddccf337eb7d0) Thanks [@Ponjimon](https://github.com/Ponjimon)! - Pass correct parameter in generateRandomString as it would fail with the binary default
+
 ## 0.1.1
 
 ### Patch Changes
