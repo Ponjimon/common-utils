@@ -1,5 +1,15 @@
 # @ponjimon/utils
 
+## 1.0.0
+
+### Major Changes
+
+- [`07b6440`](https://github.com/Ponjimon/common-utils/commit/07b64406940cd78b5d9797b490b41414c449c285) Thanks [@Ponjimon](https://github.com/Ponjimon)! - StringUtil now implements how Deno converts from and to base64
+
+  ### Breaking changes
+
+  - Output base64 strings are no longer cleaned, but StringUtil now exposes a cleanBase64String method
+
 ## 0.1.2
 
 ### Patch Changes
