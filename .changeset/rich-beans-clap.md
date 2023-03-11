@@ -2,4 +2,4 @@
 '@ponjimon/utils': patch
 ---
 
-Pass correct parameter to generateRandomString as it would fail with the binary default
+Pass correct parameter in generateRandomString as it would fail with the binary default
