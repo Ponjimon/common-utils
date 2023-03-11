@@ -1,5 +1,11 @@
 # @ponjimon/utils
 
+## 1.1.1
+
+### Patch Changes
+
+- [`f10139c`](https://github.com/Ponjimon/common-utils/commit/f10139c1adc220932516ece9d007b90b30179635) Thanks [@Ponjimon](https://github.com/Ponjimon)! - Add missing export
+
 ## 1.1.0
 
 ### Minor Changes
