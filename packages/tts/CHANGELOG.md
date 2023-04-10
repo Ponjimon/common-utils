@@ -1,5 +1,11 @@
 # @ponjimon/tts
 
+## 1.0.3
+
+### Patch Changes
+
+- [`b0225e1`](https://github.com/Ponjimon/common-utils/commit/b0225e140210b1ec1caa51467f054695c6ea5dd5) Thanks [@Ponjimon](https://github.com/Ponjimon)! - Export types
+
 ## 1.0.2
 
 ### Patch Changes
