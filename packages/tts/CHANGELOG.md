@@ -1,5 +1,11 @@
 # @ponjimon/tts
 
+## 1.0.4
+
+### Patch Changes
+
+- [`1b7705e`](https://github.com/Ponjimon/common-utils/commit/1b7705ed521c3ac0332802f2427dc45e072bd1bd) Thanks [@Ponjimon](https://github.com/Ponjimon)! - Fix typo
+
 ## 1.0.3
 
 ### Patch Changes
