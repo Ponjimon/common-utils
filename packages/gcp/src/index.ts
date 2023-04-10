@@ -5,6 +5,8 @@ import type {
   ServiceAccountTokenResponseBody,
 } from './types';
 
+export * from './types';
+
 export const decryptServiceAccount: DecryptServiceAccountFunction = async ({
   iv,
   key,

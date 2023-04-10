@@ -5,6 +5,8 @@ import {
   VoicesListResponseBody,
 } from './types';
 
+export * from './types';
+
 export async function synthesize(
   requestBody: SynthesizeRequestBody,
   accessToken: string,
