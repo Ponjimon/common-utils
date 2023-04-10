@@ -46,6 +46,14 @@ export async function synthesize(
 export async function listVoices(
   accessToken: string,
   version?: 'v1'
+): Promise<VoicesListResponseBody>;
+export async function listVoices(
+  accessToken: string,
+  version?: 'v1beta1'
+): Promise<VoicesListResponseBody>;
+export async function listVoices(
+  accessToken: string,
+  version: 'v1' | 'v1beta1' = 'v1'
 ): Promise<VoicesListResponseBody> {
   const response = await fetch(
     `https://texttospeech.googleapis.com/${version}/voices`,
