@@ -1,0 +1,4 @@
+{
+  "root": true,
+  "extends": ["@ponjimon/eslint-config"]
+}
