@@ -1,5 +1,11 @@
 # @ponjimon/gcp
 
+## 1.0.1
+
+### Patch Changes
+
+- [`204ba35`](https://github.com/Ponjimon/common-utils/commit/204ba35618e2fc144e07554b39cdc44e3dbd1b77) Thanks [@Ponjimon](https://github.com/Ponjimon)! - Fix response type of getAccessToken
+
 ## 1.0.0
 
 ### Major Changes
