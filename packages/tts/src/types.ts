@@ -44,7 +44,7 @@ export type SynthesizeInput =
   | { ssml: SSMLString };
 
 export type VoiceSelectionParams = {
-  lanuguageCode: string;
+  languageCode: string;
   name?: string;
   ssmlGender?: SsmlVoiceGender;
   customVoice?: CustomVoiceParams;
