@@ -35,7 +35,7 @@ export type ServiceAccountTokenResponseBody = {
 export type GetAccessTokenFunction = (
   serviceAccount: ServiceAccount,
   expiration?: number
-) => Promise<string>;
+) => Promise<ServiceAccountTokenResponseBody>;
 
 export type DecryptServiceAccountFunction = (options: {
   iv: string;

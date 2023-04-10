@@ -2,6 +2,7 @@ import { sign } from '@tsndr/cloudflare-worker-jwt';
 import type {
   DecryptServiceAccountFunction,
   GetAccessTokenFunction,
+  ServiceAccountTokenResponseBody,
 } from './types';
 
 export const decryptServiceAccount: DecryptServiceAccountFunction = async ({
@@ -57,5 +58,5 @@ export const getAccessToken: GetAccessTokenFunction = async (
       assertion: jwt,
     }),
   });
-  return await res.json();
+  return (await res.json()) satisfies ServiceAccountTokenResponseBody;
 };
