@@ -1,5 +1,11 @@
 # @ponjimon/tts
 
+## 1.0.2
+
+### Patch Changes
+
+- [`3c6761a`](https://github.com/Ponjimon/common-utils/commit/3c6761a63f584d8dd9b0ef7d09be28642f53236d) Thanks [@Ponjimon](https://github.com/Ponjimon)! - Remove overload of `tts` function
+
 ## 1.0.1
 
 ### Patch Changes
